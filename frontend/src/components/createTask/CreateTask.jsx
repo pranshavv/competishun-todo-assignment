@@ -49,7 +49,7 @@ function CreateTask() {
               value={title}
               required
               onChange={(e) => setTitle(e.target.value)}
-              className="bg-[#d9d4e7] text-gray-900 text-sm rounded-lg border-2 border-[#0e172c] block w-full p-2.5 "
+              className="bg-[#f4f0ff] text-gray-900 text-sm rounded-lg border-2 border-[#0e172c] block w-full p-2.5 "
             />
           </div>
           <div className="my-3 text-2xl">
@@ -62,13 +62,13 @@ function CreateTask() {
               required
               onChange={(e) => setDescription(e.target.value)}
               style={{ resize: "none" }}
-              className="bg-[#d9d4e7] border-2 border-[#0e172c] text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
+              className="bg-[#f4f0ff] border-2 border-[#0e172c] text-gray-900 text-sm rounded-lg  block w-full p-2.5 "
             />
           </div>
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-[#a786df] text-white px-10 py-2 text-lg rounded-md font-bold"
+              className="bg-[#ffdd00] text-white px-10 py-2 text-lg rounded-md font-bold"
             >
               Add
             </button>

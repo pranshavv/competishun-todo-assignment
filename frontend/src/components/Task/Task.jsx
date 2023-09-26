@@ -24,11 +24,11 @@ function Task({ task, id }) {
         })
     }
     return (
-        <div className='bg-[#d9d4e7] py-4 rounded-lg shadow-md flex items-center justify-center gap-2 mb-3'>
+        <div className='bg-[#d9b8ff] py-4 rounded-lg shadow-md flex items-center justify-center gap-2 mb-3'>
             <div className="mark-done">
                 <input type="checkbox" className="checkbox" onChange={handleMarkDone} checked={task.completed} />
             </div>
-            <div className="task-info text-slate-900 text-sm w-10/12">
+            <div className="task-info text-[black] text-sm w-10/12">
                 <h4 className="task-title text-lg capitalize">{task.title}</h4>
                 <p className="task-description">{task.description}</p>
                 <div className=' italic opacity-60'>
@@ -36,7 +36,7 @@ function Task({ task, id }) {
                         task?.createdAt ? (
                             <p>{moment(task.createdAt).fromNow()}</p>
                         ) : (
-                            <p>just now</p>
+                            <p className='text-[black]'>just now</p>
                         )
                     }
                 </div>
@@ -46,7 +46,7 @@ function Task({ task, id }) {
                     style={{ fontSize: 30, cursor: "pointer" }}
                     size="large"
                     onClick={handleRemove}
-                    className="remove-task-btn bg-[#a786df] rounded-full border-2 shadow-2xl border-white p-1" />
+                    className="remove-task-btn bg-[#000000] rounded-full border-2 shadow-2xl border-white p-1" />
             </div>
         </div>
     );

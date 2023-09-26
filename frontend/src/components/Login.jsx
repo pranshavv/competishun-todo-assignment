@@ -37,6 +37,7 @@ function Login() {
               />
             </div>
             <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+            <h1 class="text-4xl font-bold uppercase tracking-wide text-[black] p-4 text-center">Login here</h1>
               <form method="post" onSubmit={handleSubmit}>
                 <div>
                   {error && (
@@ -71,13 +72,13 @@ function Login() {
                   <div className="form-group form-check ">
                     <input type="checkbox" id="exampleCheck2" />
                     <label
-                      className="form-check-label inline-block text-gray-800 mx-2"
+                      className="form-check-label inline-block text-[white] mx-2"
                       htmlFor="exampleCheck2"
                     >
                       Remember me
                     </label>
                   </div>
-                  <Link to={"/forgotPassword"}>Forgot Password ?</Link>
+                  <Link className="text-[white]" to={"/forgotPassword"}>Forgot Password ?</Link>
                 </div>
                 <div className="text-center lg:text-left">
                   <button
@@ -87,7 +88,7 @@ function Login() {
                   >
                     Login
                   </button>
-                  <p className="text-sm font-semibold mt-2 pt-1 mb-0">
+                  <p className="text-sm font-semibold mt-2 pt-1 mb-0 text-[black]">
                     Don't have an account?
                     <Link
                       to={"/register"}

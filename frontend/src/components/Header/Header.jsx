@@ -14,16 +14,16 @@ function Header() {
 
   return (
     <div>
-      <nav className="header bg-[#fec7d7] flex justify-between items-center px-20 min-h-[100px]">
-        <div className=" w-[200px] text-center text-3xl ml-24">
+      <nav className="header bg-[#10083C] flex justify-between items-center px-20 min-h-[100px]">
+        <div className="text-[#ffffff] w-[200px] text-center text-3xl ml-24">
           <NavLink to="/">Todo App</NavLink>
         </div>
         <div className="flex w-[1000px]">
           {token ? (
             <div className="flex w-[90%]  justify-between">
-              <p className="mx-4 text-2xl">
+              <p className="mx-4 text-[white] text-2xl">
                 Welcome,{" "}
-                <span className=" text-2xl text-[#0e172c] capitalize ">
+                <span className=" text-2xl text-[white] capitalize ">
                   {user.name}
                 </span>
               </p>
@@ -32,7 +32,7 @@ function Header() {
               </button>
             </div>
           ) : (
-            <ul className="flex justify-end gap-3 w-3/4 pr-6">
+            <ul className="flex justify-end gap-3 w-3/4 pr-6 text-[white]">
               <li>
                 <NavLink to="/login">Login</NavLink>
               </li>

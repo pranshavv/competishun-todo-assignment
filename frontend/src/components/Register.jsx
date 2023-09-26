@@ -37,6 +37,7 @@ function Register() {
               />
             </div>
             <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
+            <h1 class="text-4xl font-bold uppercase tracking-wide text-[black] p-4 text-center">Registration here :)</h1>
               <form method="post" onSubmit={handleSubmit}>
                 <div>
                   {error && (
@@ -76,7 +77,7 @@ function Register() {
                   <div className="form-group form-check">
                     <input type="checkbox" id="exampleCheck3" defaultChecked />
                     <label
-                      className="form-check-label inline-block text-gray-800 mx-2"
+                      className="form-check-label inline-block text-[white] mx-2"
                       htmlFor="exampleCheck2"
                     >
                       Remember me
@@ -85,7 +86,7 @@ function Register() {
                 </div>
                 <button
                   type="submit"
-                  className="inline-block px-7 py-3 bg-[#0e172c] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                  className="inline-block px-7 py-3 bg-[#ffdd00] text-black font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-purple-100 hover:shadow-lg focus:bg-purple-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-600 active:shadow-lg transition duration-150 ease-in-out w-full"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
