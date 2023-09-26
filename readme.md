@@ -3,9 +3,9 @@
 This is a simple project that includes both a backend and a frontend for managing tasks. The backend is built with Node.js and MongoDB, while the frontend is a React application.
 
 Screenshots
-![Login](https://example.com/images/dashboard-screenshot.png)
-![Register](https://example.com/images/dashboard-screenshot.png)
-![Dashboard](../competishun-todo-assignment/frontend/src/images/todoimg%20(2).png)
+![Login](./images/login.png)
+![Register](./images/register.png)
+![Dashboard](./images/dashboard.png)
 
 
 ## Prerequisites
