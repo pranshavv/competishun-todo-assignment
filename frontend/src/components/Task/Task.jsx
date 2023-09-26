@@ -26,7 +26,7 @@ function Task({ task, id }) {
     return (
         <div className='bg-[#d9b8ff] py-4 rounded-lg shadow-md flex items-center justify-center gap-2 mb-3'>
             <div className="mark-done">
-                <input type="checkbox" className="checkbox" onChange={handleMarkDone} checked={task.completed} />
+                <input type="checkbox" className="checkbox w-4 h-4" onChange={handleMarkDone} checked={task.completed} />
             </div>
             <div className="task-info text-[black] text-sm w-10/12">
                 <h4 className="task-title text-lg capitalize">{task.title}</h4>
