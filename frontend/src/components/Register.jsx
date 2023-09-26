@@ -3,6 +3,7 @@ import { useState, useContext } from "react";
 import { Navigate } from "react-router-dom";
 import axios from "../Axios/axios.js";
 import TokenContext from "../context/TokenContext.js";
+import imgg from '../images/To do list.png'
 function Register() {
   const [formData, setFormData] = useState({});
   const { userToken, tokenDispatch, userDispatch } = useContext(TokenContext);
@@ -31,8 +32,8 @@ function Register() {
           <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
             <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-                className="w-full"
+                src={imgg}
+                className="w-3/4 ml-10"
                 alt="Phone"
               />
             </div>
