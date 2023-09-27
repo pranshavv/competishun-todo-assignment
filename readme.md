@@ -49,14 +49,14 @@ Save the ```.env``` file.
 3. Install backend dependencies and start the server:
 
 ```
-cd competishun-todo-assignment/backend
+cd backend
 npm install
-npm start
+nodemon server
 ```
 
 4. Open a new terminal window, navigate to the frontend directory, and install frontend dependencies:
 ```
-cd ../frontend
+cd frontend
 npm install
 ```
 5. Start the React app:
