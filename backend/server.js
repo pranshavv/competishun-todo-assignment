@@ -33,5 +33,10 @@ app.use("/api/user", userRouter)
 app.use("/api/task", taskRouter)
 app.use("/api/forgotPassword", forgotPasswordRouter)
 
+// Add a landing page route
+app.get("/", (req, res) => {
+    res.send("Welcome to My Backend Server"); // Customize the message as needed
+});
+
 //listen
 app.listen(port, () => console.log(`Listening on localhost:${port}`))
